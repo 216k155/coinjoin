@@ -1,0 +1,34 @@
+{
+  "name": "coinjoin.js",
+  "version": "0.5.0",
+
+  "description": "Javascript module with coinjoin implementation compatible with bitcoinjs-lib",
+  "author": "Pablo Martin <caedes@sindominio.net>",
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node .",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/jasmine-node/bin/jasmine-node ."
+  },
+  "main": "coinjoin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkwallet/coinjoin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/darkwallet/coinjoin.js/issues"
+  },
+  "keybords": [
+    "bitcoin",
+    "privacy",
+    "mixing",
+    "coinjoin"
+  ],
+  "dependencies": {
+    "bitcoinjs-lib": "~1.2.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.14.5",
+    "istanbul": "~0.3.2",
+    "coveralls": "~2.10.0"
+  },
+  "license": "AGPLv3+"
+}
